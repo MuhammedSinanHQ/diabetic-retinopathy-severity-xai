@@ -20,15 +20,15 @@ Dataset
 
 The experiments are conducted on retinal fundus images sourced from the APTOS 2019 Blindness Detection dataset, which categorizes images into five severity levels:
 
-No DR
+->No DR
 
-Mild DR
+->Mild DR
 
-Moderate DR
+->Moderate DR
 
-Severe DR
+->Severe DR
 
-Proliferative DR
+->Proliferative DR
 
 Basic preprocessing and data organization were performed to ensure consistency and reliability during training and evaluation.
 
@@ -36,31 +36,31 @@ Methodology
 
 The system follows a structured pipeline:
 
-Data Exploration & Preprocessing
+1.Data Exploration & Preprocessing
 
-Inspection of class distribution
+  ->Inspection of class distribution
 
-Image normalization and resizing
+  ->Image normalization and resizing
 
-Handling class imbalance using weighted loss
+  ->Handling class imbalance using weighted loss
 
-Model Training
+2.Model Training
 
-A convolutional neural network architecture was used for feature extraction and classification
+  ->A convolutional neural network architecture was used for feature extraction and classification
 
-Multi-class classification was performed across five DR severity levels
+  ->Multi-class classification was performed across five DR severity levels
 
-Evaluation
+3.Evaluation
 
-Performance evaluated using accuracy and macro F1-score
+  ->Performance evaluated using accuracy and macro F1-score
 
-Validation used to monitor generalization behavior
+  ->Validation used to monitor generalization behavior
 
-Explainability
+4.Explainability
 
-Visual explanation techniques (Grad-CAM) were applied
+  ->Visual explanation techniques (Grad-CAM) were applied
 
-Heatmaps highlight retinal regions contributing to the model’s decision
+  ->Heatmaps highlight retinal regions contributing to the model’s decision
 
 Results
 
