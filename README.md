@@ -3,7 +3,7 @@ EXPLAINABLE AI FOR DIABETIC RETINOPATHY SEVERITY DETECTION
 
 Overview
 
-Diabetic Retinopathy is a major ocular complication in diabetic patients, which can lead to irreversible loss of vision if not treated properly. This project aimed at developing an automatic system capable of analyzing fundus images of the retina, grading the severity of diabetic retinopathy, and providing visual explanations to justify the model decisions.
+Diabetic Retinopathy is a major visual complication in diabetic patients, which can lead to irreversible loss of vision if not treated properly. This project aimed at developing an automatic system capable of analyzing fundus images of the retina, grading the severity of diabetic retinopathy, and providing visual explanations to justify the model decisions.
 
 Apart from prediction accuracy, the aim of this work is interpretability, an important factor in clinical and medical decision-support systems.
 
